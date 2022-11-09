@@ -265,3 +265,159 @@ let fishh = fish.toString(); */
     console.log(data.cell);
     console.log(data.skill);
 } */
+
+
+
+//date object
+
+/* let date = new Date();
+
+console.log(date.getTime());
+console.log(date.getDate());
+console.log(date.getMonth() + 1);
+console.log(date.getFullYear());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+console.log(date.getMilliseconds()); */
+
+
+
+//math object
+
+
+/* 
+console.log(Math.random() * 101) + 1; */
+
+
+
+//json data management
+
+/* const students = [{
+        name: 'Ripon Miah',
+        email: 'Ripon@gmail.com',
+        cell: '01913509868',
+        skill: 'Laravel Developer',
+    },
+    {
+        name: 'Mony Akter',
+        email: 'mony@gmail.com',
+        cell: '01966060192',
+        skill: 'Javascript developer',
+    }
+
+]; */
+/* let stt = JSON.stringify(students);
+let arr = JSON.parse(stt);
+console.log(arr); */
+
+
+/* 
+localStorage and sessionStorage */
+
+/* const students = [{
+        name: 'Ripon Miah',
+        email: 'Ripon@gmail.com',
+        cell: '01913509868',
+        skill: 'Laravel Developer',
+    },
+    {
+        name: 'Mony Akter',
+        email: 'mony@gmail.com',
+        cell: '01966060192',
+        skill: 'Javascript developer',
+    }
+
+];
+
+localStorage.setItem('students', JSON.stringify(students));
+localStorage.setItem('name', 'Ripon');
+let lll = localStorage.getItem('name');
+console.log(lll);
+
+
+sessionStorage.setItem('students', JSON.stringify(students));
+sessionStorage.setItem('name', 'Ripon miah');
+let llllll = sessionStorage.getItem('name');
+console.log(llllll);
+
+document.cookie = "name = Ripon ;100;/home";
+100;
+ */
+
+//javascript error handler
+
+
+/* console.log('this is a javascript');
+console.info('this is a javascript');
+console.dir('this is a javascript'); */
+/* console.debug('this is a javascript'); */
+/* console.error('this is a javascript'); */
+/* console.warn('this is a javascript'); */
+
+/* try {
+    agecaal();
+} catch (error) {
+    console.error(error.message);
+} */
+
+
+//01/8801/+8801
+
+/* let txt = '01913509868';
+
+let pattern = /^(01|8801|\+8801)[0-9]{9}$/;
+
+console.log(pattern.test(txt)); */
+
+
+//devripon_.@gmail.com,
+
+/* let txt = 'devripon.io@gmail.com';
+
+let pattern = /^[a-z\._0-9]*@[a-z0-9-_]*[\.][a-z]{2,8}$/;
+
+console.log(pattern.test(txt)); */
+
+
+
+//email pattern example: devripon.io@gmail.com
+/* let email = 'devripon.io@hfdgh.com';
+let pattern = /^[a-z0-9._]*@[a-z]{1,15}[.][a-z]{1,9}$/;
+console.log(pattern.test(email)); */
+
+
+//username pattern example:
+/* devripon123 = min 6 caracters and max 12 caracters */
+
+/* let username = 'devripon123';
+let pattern = /^[a-zA-Z0-9]{6,12}$/;
+console.log(pattern.test(username)); */
+
+
+
+//bangladeshi phone number pattern
+/* example: +8801913509868/8801913509868/01913509868 */
+
+/* let cell = '8801913509868';
+let pattern = /^(01|8801|\+8801)[0-9]{9}$/;
+
+console.log(pattern.test(cell)); */
+
+
+
+//bangladeshi zip code pattern example: 1406
+
+
+/* let zip = '1406';
+let pattern = /^[0-9]{4,6}$/;
+
+console.log(pattern.test(zip)); */
+
+
+//basic password pattern example: dev34@ghj@456
+
+/* let password = 'devgsf';
+let pattern = /^[a-z0-9!@#$%^&*()]{6,50}$/;
+
+console.log(pattern.test(password)); */
